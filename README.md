@@ -12,7 +12,7 @@ Machine Learning Modeling Using RandomForest
 
 
 
-#BUSINESS OBJECTIVE
+## BUSINESS OBJECTIVE
 
 Total number of Churned Customers
 Factors leading to churn
@@ -20,13 +20,13 @@ General Trends on the Data set
 Recommendation
 
 
-#DATA CLEANING
+## DATA CLEANING
 
 Added features:number of Monthly subscribers,Month and year the subscription began, tottal number of years the subscription was active.
 Corrected Skewness In the data
 Analysed features that were of importance and if they had an increasing or decreasing regression
 
-#DATA MODELLING
+## DATA MODELLING
 Random Forest was used for the classification and prediction of the model
 Correlation was checked usng a heat map and some features were dropped(Num_of_sub_years', 'has_gas','margin_net_pow_ele', 'price_mid_peak_fix','price_off_peak_var','price_peak_fix','price_peak_var','year_sub_began')
 Model was recheked after dropping features
@@ -34,6 +34,6 @@ Confusion Matrix Was used to confirm changes made and Random DData Sampling was 
 Hyperparameter Tunning was finaly done to ensure increased Accuracy and Precision
 
 
-# INSIGHTS
+## INSIGHTS
 Forecast meter, net margin, consumption and the net power posed posed as the main indicators for churn.
 The price wasnt a concern but quality of services given by the company, Suggestions were made to look into complaints and sentiments of customer, Fact checking if customers that churned made calls or reports on certain issues
